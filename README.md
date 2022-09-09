@@ -1,3 +1,1 @@
 software_01
-sofrware_02
-software_03
