@@ -4,7 +4,7 @@ def is_prime_number(n):
             return False
     return True
 
-def prime_number_list(n):
+def prime_number_spa(n):
     spa = []
     cnt = 0
     for i in range(2, n + 1):
