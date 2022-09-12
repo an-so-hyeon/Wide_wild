@@ -13,14 +13,14 @@ def prime_number_spa(n):
             cnt += 1
     return print("{}까지의 정수 중 소수는 {}로, 총 {}개이다.".format(n, spa, cnt))
 
-# 100부터 200까지의 prime number와 총 개수 구하기.
-def prime_number_t100(n):
+# x부터 y까지의 prime number와 총 개수 구하기.
+def prime_number_t100(x, y):
     spa = []
     cnt = 0
-    for i in range(100, n + 1):
+    for i in range(x, y + 1):
         if is_prime_number(i):
             spa.append(i)
             cnt += 1
-    return print("100부터 {}까지의 정수 중 소수는 {}로, 총 {}개이다.".format(n, spa, cnt))
+    return print("{}부터 {}까지의 정수 중 소수는 {}로, 총 {}개이다.".format(x, y, spa, cnt))
 
-prime_number_t100(200)
+prime_number_t100(100, 200)
